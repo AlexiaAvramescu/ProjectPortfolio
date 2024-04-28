@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{eb85ebf3-c53b-4a52-9fab-dc1d5c7a13bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pieces">
+      <UniqueIdentifier>{4ae0293e-170b-43e1-915e-a0a4c83aa34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pieces">
+      <UniqueIdentifier>{f0b26606-aadb-4481-af3b-afc0de886405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{d3434abf-4c82-4f4a-a93b-c402144f102a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions\MethodExceptions">
+      <UniqueIdentifier>{5af21f8f-01ef-48b7-aa77-d4b957f93285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions\PieceMoveExceptions">
+      <UniqueIdentifier>{20384196-b11a-41cc-9d70-c547108f6563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions\InvalidInputExceptions">
+      <UniqueIdentifier>{06929400-cf5c-42bd-9fef-226891cca2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Exceptions">
+      <UniqueIdentifier>{a5bbb5c6-0e8a-4253-b140-32948f257812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Exceptions\MethodExceptions">
+      <UniqueIdentifier>{63cc75db-b5d0-4ff1-b54d-f9b9bccd9bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Exceptions\PieceMoveExceptions">
+      <UniqueIdentifier>{639cd54a-8d31-4f89-81c2-8803064aaa7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Exceptions\InvalidInputExceptions">
+      <UniqueIdentifier>{08f19af7-1c92-4593-ad69-8fc872dfe654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Exceptions\FilesExceptions">
+      <UniqueIdentifier>{ade06e10-0ffa-4654-a996-3970750be130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions\FileExceptions">
+      <UniqueIdentifier>{de0e7653-35da-4443-a169-11cd73932e8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGame.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="IPiece.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="EPieceColor.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="EPieceType.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="EGameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessExceptions.h">
+      <Filter>Header Files\API\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="NotStateDrawProposedException.h">
+      <Filter>Header Files\API\Exceptions\MethodExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodException.h">
+      <Filter>Header Files\API\Exceptions\MethodExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="NotStateWaitingForPawnUpdate.h">
+      <Filter>Header Files\API\Exceptions\MethodExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="NotStatePlayingException.h">
+      <Filter>Header Files\API\Exceptions\MethodExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="PieceMovementExceptions.h">
+      <Filter>Header Files\API\Exceptions\PieceMoveExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="KingLeftInCheckException.h">
+      <Filter>Header Files\API\Exceptions\PieceMoveExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="InvalidMovingPatternException.h">
+      <Filter>Header Files\API\Exceptions\PieceMoveExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="OutOfBoundException.h">
+      <Filter>Header Files\API\Exceptions\InvalidInputExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="InvalidStartPositionExcepton.h">
+      <Filter>Header Files\API\Exceptions\InvalidInputExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="InvalidDrawResponseException.h">
+      <Filter>Header Files\API\Exceptions\InvalidInputExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="InvalidUpgradeType.h">
+      <Filter>Header Files\API\Exceptions\InvalidInputExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="EComand.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="EGameResult.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="PieceInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PGNBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EInfoPGN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPieceInfo.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameStatus.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="EPlayer.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotStatePausedException.h">
+      <Filter>Header Files\API\Exceptions\MethodExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="EGameType.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="FileException.h">
+      <Filter>Header Files\API\Exceptions\FilesExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CanNotOpenFileException.h">
+      <Filter>Header Files\API\Exceptions\FilesExceptions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Rook.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessExceptions.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodException.cpp">
+      <Filter>Source Files\Exceptions\MethodExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="NotStateDrawProposedException.cpp">
+      <Filter>Source Files\Exceptions\MethodExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="NotStatePlayingException.cpp">
+      <Filter>Source Files\Exceptions\MethodExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="NotStateWaitingForPawnUpdate.cpp">
+      <Filter>Source Files\Exceptions\MethodExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="KingLeftInCheckException.cpp">
+      <Filter>Source Files\Exceptions\PieceMoveExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="PieceMovementExceptions.cpp">
+      <Filter>Source Files\Exceptions\PieceMoveExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="InvalidMovingPatternException.cpp">
+      <Filter>Source Files\Exceptions\PieceMoveExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="OutOfBoundException.cpp">
+      <Filter>Source Files\Exceptions\InvalidInputExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="InvalidStartPositionExcepton.cpp">
+      <Filter>Source Files\Exceptions\InvalidInputExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="InvalidDrawResponseException.cpp">
+      <Filter>Source Files\Exceptions\InvalidInputExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="InvalidUpgradeType.cpp">
+      <Filter>Source Files\Exceptions\InvalidInputExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="PieceInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PGNBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NotStatePausedException.cpp">
+      <Filter>Source Files\Exceptions\MethodExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="FileException.cpp">
+      <Filter>Source Files\Exceptions\FileExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CanNotOpenFileException.cpp">
+      <Filter>Source Files\Exceptions\FileExceptions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
