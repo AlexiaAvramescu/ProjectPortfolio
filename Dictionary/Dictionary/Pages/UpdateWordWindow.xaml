@@ -1,0 +1,28 @@
+﻿<Window x:Class="Dictionary.Pages.UpdateWordWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dictionary.Pages"
+        mc:Ignorable="d"
+        Title="UpdateWordWindow" Height="450" Width="600">
+    <Grid>
+
+        <StackPanel Margin="38,43,336,217">
+            <TextBlock Text="{Binding SelectedWord.Value}" FontSize="20"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="178" Height="33"/>
+            <TextBlock Text="Description:"/>
+            <TextBox Text="{Binding SelectedWord.Description}"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="178" Height="63"/>
+            <TextBlock Text="Category:"/>
+            <TextBox Text="{Binding SelectedWord.Category}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="178"/>
+
+        </StackPanel>
+
+        <Image Source="{Binding SelectedWord.ImagePath}" Margin="315,45,81,207"/>
+
+        <StackPanel Orientation="Horizontal" Margin="136,222,136,127">
+            <Button Content="Select Image" Width="120" Height="30" Click="selectImgBtn_Click"/>
+            <Border Width="80"/>
+            <Button Content="Remove Word" Width="120" Height="30" Click="removeWordBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Page x:Class="Dictionary.Pages.Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dictionary.Pages"
+      xmlns:main="clr-namespace:Dictionary"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="900"
+      Title="Main">
+    
+    <Grid Background="White">
+        <TextBlock Text="Dictionary" Style="{StaticResource HeaderTextBlockStyle}" HorizontalAlignment="Center" Margin="0,98,0,-99"/>
+        <Button Name="btnAdmin" Content="Admin Mode" HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" Height="40" Margin="130,0,0,0" Click="btnAdmin_Click"/>
+        <Button Name="btnSearch" Content="Search Mode" HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" Height="40" Margin="614,0,0,0" RenderTransformOrigin="0.521,0.609" Click="btnSearch_Click"/>
+        <Button Name="btnEntertain" Content="Entertainment Mode" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Height="40" Click="btnEntertain_Click"/>
+    </Grid>
+</Page>
