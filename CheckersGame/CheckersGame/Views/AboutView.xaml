@@ -1,0 +1,28 @@
+﻿<Window x:Class="CheckersGame.Views.AboutView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CheckersGame.Views"
+        mc:Ignorable="d"
+        Title="AboutView" Height="400" Width="600">
+    <Grid Background="AntiqueWhite">
+        <StackPanel Margin="20">
+            <TextBlock Text="Checkers Game" FontWeight="Bold" FontSize="18" HorizontalAlignment="Center"/>
+            <Separator Margin="0 10"/>
+            <TextBlock Text="Created by Alexia Avramescu" FontSize="14" HorizontalAlignment="Center"/>
+            <TextBlock Text="alexia.avramescu@student.unitbv.ro" FontSize="14" HorizontalAlignment="Center"/>
+            <TextBlock Text="Version 1.0" FontSize="16" HorizontalAlignment="Center"/>
+            <Separator Margin="0 20"/>
+            <TextBlock TextWrapping="Wrap">
+                Checkers Game is a classic board game that provides hours of entertainment for players of all ages. The objective of the game is simple: to capture all of your opponent's pieces or block them from making any moves.
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap">
+                The game is played on an 8x8 checkered board, with each player starting with 12 pieces placed on the dark squares. Players take turns moving their pieces diagonally forward, aiming to jump over and capture their opponent's pieces. If a player's piece reaches the opposite end of the board, it is crowned and gains additional abilities, making it more powerful.
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap">
+                Checkers is a game of strategy and skill, requiring players to anticipate their opponent's moves while planning their own. Whether playing against a computer or another person, Checkers Game offers a challenging and enjoyable gaming experience for everyone.
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
